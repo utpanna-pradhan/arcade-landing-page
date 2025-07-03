@@ -1,0 +1,36 @@
+.home_container{
+background: #39a7cc;
+background: linear-gradient(0deg,rgba(57, 167, 204, 1) 0%, rgba(157, 223, 245, 1) 49%, rgba(247, 247, 247, 1) 100%);
+height: 100vh;
+position: relative;
+width: 95vw;
+margin: auto;
+border-radius: 18px;
+
+}
+.home_container_content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ;
+    align-items: center; */
+    margin:0 auto;
+  position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+}
+.home_content h1{
+    line-height: 63px;
+}
+.home_button button{
+    border: 1px solid rgb(141, 141, 141);
+    padding: 15px 25px;
+    background-color: rgba(233, 247, 248, 0.945);
+    border-radius: 15px;
+    
+}
+.home_Subcontent{
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+}

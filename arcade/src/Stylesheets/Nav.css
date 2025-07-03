@@ -1,0 +1,47 @@
+ .logo {
+        cursor: pointer;
+        transition:all .2s ease;
+      }
+      .logo .pressed {
+        display: none;
+        transition:all .2s ease;
+      }
+      .logo .fill {
+        fill: #111827;
+        transition:all .2s ease;
+      }
+      .transition-all {transition:all .2s ease;}
+  .logo rect, .logo g, .logo path, stop  {
+      transition:all .2s ease;
+  }
+  
+      .logo  .stroke {
+        stroke: #111827;
+        stroke-width: 2;
+        transition:all .2s ease;
+      }
+      .logo:hover  .fill {
+      	fill:transparent !important;
+        fill: url(#gradientsvg) !important;
+
+      }
+      .logo:hover  .stroke {
+      	stroke: transparent !important;
+        stroke: url(#gradientsvg) !important;
+        fill: #fff;
+        stroke-width: 2;
+      }
+      .logo:active  .unpressed {
+        display: none;
+      }
+      .logo:active  .pressed {
+        display: block !important;
+      }
+      svg{
+        width: 150px;
+      }
+
+      nav{
+        padding: 10px;
+        margin: 20px;
+      }

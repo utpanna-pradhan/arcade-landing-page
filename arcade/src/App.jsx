@@ -1,13 +1,14 @@
 import React from 'react'
-import Intro from './components/Intro';
 import './App.css'
-import OurValues from './components/OurValues';
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+
 
 function App() {
   return (
     <div>
-     <Intro />
-     <OurValues />
+      <Navbar />
+    <Home />
     </div>
   )
 }
